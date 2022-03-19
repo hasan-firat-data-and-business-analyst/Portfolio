@@ -1,6 +1,6 @@
 ### My Python Journey
 
-# Data-Science-Python
+## Data-Science-Python
 This is my personal extensive studying about data science on Python
 
 Data Science Python
