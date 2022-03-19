@@ -9,7 +9,7 @@ Description
 
 A collection of data science scripts for data analysis in Python. Please also see my related repository Python Machine Learning which contains many implementations of Machine Learning algorithms including regression, classification, and clustering. The algorithms are implemented in two ways: from scratch in Python and using Scikit Learn functions.
 
-Python libraries used:
+# Python libraries used:
 
     Numpy
     Scipy
@@ -23,7 +23,7 @@ Python libraries used:
 
 
 
-Visualisations
+# Visualisations
 
 
     Histogram: A histogram is a graphical method of displaying quantitative data. A histogram displays the single quantitative variable along the x axis and frequency of that variable on the y axis. The distinguishing feature of a histogram is that data is grouped into "bins", which are intervals on the x axis.
@@ -42,7 +42,7 @@ Statistics
     PCA Dimensionality Reduction: Principal Component Analysis (PCA) is a technique commonly used for dimensionality reduction. PCA computes the feature vectors along which the data has the highest variance. Since these feature vectors have the highest variance they also hold most of the information that the data represents. Therefore we can project the data on to these feature vectors, reducing the dimensionality of the data which makes analysis easier and more clear.
     Data Shuffling: Shuffling the data prior to applying a machine learning algorithm has been proven to improve the performance.
 
-Pandas Data Science
+# Pandas Data Science
 Basic Dataset Information
 
     Read in a CSV dataset: pd.DataFrame.from_csv("csv_file") OR pd.read_csv("csv_file")
@@ -51,7 +51,7 @@ Basic Dataset Information
     Basic dataset statistics: print(df.describe())
     Print dataframe in a table: print(tabulate(print_table, headers=headers)) where "print_table" is a list of lists and "headers" is a list of the string headers
 
-Basic Data Handling
+# Basic Data Handling
 
     Drop missing data: df.dropna(axis=0, how='any') Return object with labels on given axis omitted where alternately any or all of the data are missing
     Replace missing data: df.replace(to_replace=None, value=None) Replace values given in "to_replace" with "value".
@@ -62,7 +62,7 @@ Basic Data Handling
     Get first "n" rows: df.head([n])
     Get data by feature name: df.loc[feature_name]
 
-Basic Plotting
+# Basic Plotting
 
     Area plot: df.plot.area([x, y])
     Vertical bar plot: df.plot.bar([x, y])
@@ -72,7 +72,7 @@ Basic Plotting
     Line plot: df.plot.line([x, y])
     Pie chart: df.plot.pie([y])
 
-Matplotlib Plotting
+# Matplotlib Plotting
 
     Scatter plot: scatter(x_data, y_data, s = 30, color = '#539caf', alpha = 0.75)
     Line plot: plot(x_data, y_data, lw = 2, color = '#539caf', alpha = 1)
