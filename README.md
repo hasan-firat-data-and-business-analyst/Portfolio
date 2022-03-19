@@ -27,11 +27,16 @@ A collection of data science scripts for data analysis in Python. Please also se
 
 
     Histogram: A histogram is a graphical method of displaying quantitative data. A histogram displays the single quantitative variable along the x axis and frequency of that variable on the y axis. The distinguishing feature of a histogram is that data is grouped into "bins", which are intervals on the x axis.
+    
     Scatterplot: A scatter plot is a graphical method of displaying the relationship between data points. Each feature variable is assigned an axis. Each data point in the dataset is then plotted based on its feature values.
+    
     Beeswarm Plot: A Beeswarm plot is a two-dimensional visualisation technique where data points are plotted relative to a fixed reference axis so that no two datapoints overlap. The beeswarm plot is a useful technique when we wish to see not only the measured values of interest for each data point, but also the distribution of these values.
+    
     Cumulative Distribution Function: The cumulative distribution function (cdf) is the probability that a variable takes a value less than or equal to x. For example, we may wish to see what percentage of the data has a certain feature variable that is less than or equal to x.
+    
     Bar Plots: Classical bar plots that are good for visualisation and comparison of different data statistics, especially comparing statistics of feature variables.
-Statistics
+    
+### Statistics
 
     Mean and Median: Both of these show a type of "average" or "center" value for a particular feature variable. The mean is the more literal and precise center; however median is much more robust to outliers which may pull the mean value calculation far away from the majority of the values.
     Variance and Standard Deviation: Useful for seeing to what degree the feature variable of a dataset varies across all example i.e are most of the values for this particular feature variable similar across the dataset or are they all very different.
